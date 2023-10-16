@@ -1,147 +1,101 @@
-body,html{
+body, html {
     margin: 0;
     padding: 0;
     font-size: 14px;
-    font-family: PingFangSC, "Arial","Hiragino Sans GB","Microsoft Yahei";
+    font-family: "PingFang SC", "Helvetica Neue", "PingFang SC", "Microsoft YaHei", "Source Han Sans SC";
     -webkit-font-smoothing: antialiased;
+    color: rgba(0,0,0,0.8);
 }
 
-h3, h4 {
-    margin-top: 16px;
-    margin-bottom: 12px;
-}
-
-.pannel{
+.container {
+    width: 704px;
     margin: 0 auto;
-    width:702px;
-    background:rgb(235,235,235);
-    min-height: 100%;
 }
 
-.head{
-    background-color: #20BC7D;
-    background-image: url(../img/cube.svg);
-    width: 100%;
-    height: 170px;
-    text-align: center;
-    background-size: 18px 18px;
-
+.profile {
+    margin: 18px 0;
 }
 
-.head img{
-    height: 120px;
-    width: 120px;
-    border-radius: 64px;
-    margin-top: 24px;
-    border: 2px solid #208a62;
+h1 {
+    margin-top: 28px;
+    margin-bottom: 16px;
+    font-size: 22px;
+    border-left: 3px solid indianred;
+    padding-left: 8px;
 }
 
-section{
-    color: rgba(0,0,0,0.75);
-    padding: 0 3rem;
+a {
+    color: indianred;
+    text-decoration: none; 
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.profile {
+    display: flex;
     padding-bottom: 8px;
 }
 
-.profile{
-    text-align: center;
+.profile .info {
+    flex-grow: 1;
 }
 
-.profile h1{
-    font-weight: lighter;
-    font-size: 28px;
-    margin: 0.5rem;
+.profile .avatar {
+    margin-right: 32px;
+    width: 128px;
+    height: 128px;
+    border-radius: 128px;
 }
 
-.name{
-    position: relative;
+.profile .item {
+    margin-bottom: 6px;
 }
-.name i{
-    color: #59C2FD;
-    position: absolute;
-    top:8px;
-    left:-25px;
+
+.name {
     font-size: 24px;
+    letter-spacing: 2px;
+    font-weight: lighter;
 }
 
-.label{
-    color:rgba(0,0,0,0.65);
-    margin: 4px 2px;
-    display: inline-block;
-}
-
-.label i{
-    margin-right: 1px;
-}
-
-.card{
-    background: #fff;
-    border-radius: 2px;
-    box-shadow: 0 0 1px rgba(0,0,0,0.08);
-    overflow: hidden;
-    margin-bottom:0.8rem;
-}
-
-.card .title{
-    border-left: 4px solid #444;
-    padding-left: 0.3rem;
-    margin: 0;
-    line-height: 2.5rem;
-}
-
-.card .content{
-    margin: 1rem;
-    color: rgba(0,0,0,0.65);
-}
-
-.card ul{
-    padding-left: 20px;
-}
-
-.career {
-    margin: 28px 0;
-}
-
-.career .info .logo {
-    position: relative;
-    bottom: 4px;
-    height: 48px;
-    width:48px;
+.age, .degree, .school {
     margin-right: 12px;
 }
 
-.career .info{
-    display: inline-block;
+.profile .basic {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 8px;
 }
 
-.career .info .text{
-    display: inline-block;
-    position:relative;
-    top:-3px;
+.profile .contact {
+    display: flex;
+    justify-content: space-between;
 }
 
-.career .info .text .company{
+b {
+    color: rgba(0,0,0,0.95);
     font-weight: bold;
 }
 
-.career .info .text .job, .career .info .text .date {
-    color: #666;
-    font-size: 12px;
-} 
-
-.career .work{
-    display: inline-block;
-    float: right;
-    width: 300px;
+.work {
+    margin-bottom: 22px;
 }
 
-.project{
-    border-radius: 2px;
-    padding: 0 0.8rem;
+.work .row1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    font-size: 16px;
 }
 
-.project a{
-    text-decoration: none;
-    font-size: 1.5rem;
-    color: white;
-    font-weight: bold;
+.work .title {
+    font-weight: lighter;
+}
+
+.work .time {
+    margin-left: auto;
+    font-size: 16px;
 }

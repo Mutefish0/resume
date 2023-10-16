@@ -1,108 +1,110 @@
 <html>
-<head>
-    <meta charset="UTF-8">
-    <title>Riddleoo's Resume</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/font-awesome.css">
-</head>
-<body>
-    <div class="pannel">
-        <div class="head">
-            <img src="./img/avatar.jpg" alt="">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Ivancing's Resume</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/font-awesome.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="profile">
+        <img class="avatar" src="./img/avatar.jpg" />
+        <div class="info">
+          <div class="name">程一凡</div>
+          <div class="basic">
+            <div class="age">27岁</div>
+            <div class="degree">本科</div>
+            <div class="school">湖北经济学院·电子信息工程</div>
+          </div>
+          <div class="contact">
+            <div class="left">
+              <div class="item">
+                <b>邮箱</b>
+                <div>
+                  <a href="mailto:648262030@qq.com">648262030@qq.com</a>
+                </div>
+              </div>
+              <div class="item">
+                <b>Github</b>
+                <div>
+                  <a href="https://github.com/mutefish0"
+                    >https://github.com/mutefish0</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="right">
+              <div class="item">
+                <b>手机</b>
+                <div>13163316207</div>
+              </div>
+              <div class="item">
+                <b>博客</b>
+                <div>
+                  <a href="https://mutefish0.github.io"
+                    >https://mutefish0.github.io/</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <section class="profile">
-            <h1><span class="name">程一凡</span></h1>
-            <span class="label">
-                <i class="fa fa-user"></i>
-                本科 | 17年毕业
-            </span><br>
-            <span class="label">
-                <i class="fa fa-university"></i>
-                湖北经济学院 · 电子信息工程
-            </span>
-            <span class="label">
-                <i class="fa fa-map-marker"></i>
-                北京
-            </span><br>
-            <span class="label">
-                <i class="fa fa-phone fa-lg"></i>
-                13163316207
-                <i class="fa fa-envelope"></i>
-                648262030@qq.com
-                <i class="fa fa-github fa-lg"></i>
-                 https://github.com/mutefish0
-            </span>
-        </section>
-        <section>
-            <div class="card">
-                <h3 class="title">工作经历</h3>
-                <div class="content">
-                    <div class="career">
-                        <div class="info">
-                            <img src="./img/fxiaoke.png" class="logo">
-                            <div class="text">
-                                <span class="company">纷享销客</span>
-                                <br>
-                                <span class="job">前端开发工程师</span>
-                                <br>
-                                <span class="date">2017年3月 - 至今</span>
-                            </div>
-                        </div>
-                        <div class="work">
-                            负责与企信相关业务的H5开发与维护，
-                            负责纷享销客IM桌面客户端的feature开发，
-                            迁移老的业务到Vue
-                        </div>
-                    </div>
-
-                    <div class="career">
-                        <div class="info">
-                            <img src="./img/qyer.png" class="logo">
-                               <div class="text">
-                                  <span class="company">穷游网</span> <br>
-                                  <span class="job">前端开发实习生</span> <br>
-                                  <span class="date">2016年8月 — 2016年9月</span>
-                               </div>
-                        </div>
-                        <div class="work">
-                            制作微信H5锦囊专题推广页面，
-                            配合后端开发穷游锦囊评论系统，
-                            维护穷游锦囊CMS系统，扩展markdown语法
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <h3 class="title">项目经历</h3>
-                <div class="content">
-                    <div class="project">
-                        <h3>Yamer: 一款极简易用的markdow编辑器/笔记本</h3>
-                        一个个人side project，目前还在持续开发中。自己编写的markdown解析器，
-                        有较高的扩展性，支持markdown语法高亮。有着流畅的实时预览体验。
-                        技术栈：项目基于Electron，视图使用React。使用Typescrip语言开发。
-                        使用LevelDB存储文本文档。
-                    </div>
-                    <div class="project">
-                        <h3>个人博客网站</h3>
-                        大学时基于兴趣开发的一个个人博客网站，有在个人域名上过线。后来服务器到期，
-                        以及精力不足就没有维护了。技术栈：前端基于React+Redux，后端基于Express+MongoDB。
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <h3 class="title">技能评价</h3>
-                <div class="content">
-                    <ul>
-                        <li>能够熟练使用Charles抓包工具，熟练Git常用操作</li>
-                        <li>能熟练使用React进行视图开发，熟悉Redux </li>
-                        <li>掌握Gulp构建工具，熟悉Node.js </li>
-                        <li>熟悉/偏好Typescript </li>
-                        <li>能熟练使用Chrome Devtools进行调试</li>
-                        <li>善于主动学习，会阅读英文文档</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
+      </div>
+      <h1>工作经历</h1>
+      <div class="work">
+        <div class="row1">
+          <div class="company">
+            阿里巴巴-飞猪 <span class="title">高级前端工程师</span>
+          </div>
+          <div class="time">2020年10月 - 2021年8月</div>
+        </div>
+        <div class="row2">
+          1. 参与飞猪机票H5业务的开发 <br />
+          2. 参与飞猪商家店铺H5、支付宝小程序开发 <br />
+          3. 负责飞猪用车（接送机、接送站）整个首页和车型查询页面升级改版<br />
+        </div>
+      </div>
+      <div class="work">
+        <div class="row1">
+          <div class="company">
+            Moka <span class="title">前端开发工程师</span>
+          </div>
+          <div class="time">2018年6月 - 2020年9月</div>
+        </div>
+        <div class="row2">
+          主要负责公司ATS产品的迭代开发，参与前端开发和后端Nodejs业务开发。负责Chrome浏览器插件“Moka简藏”的开发与维护，提升使用体验。负责企业招聘门户（自定义招聘官网，几千家企业用来进行社招、校招、内推的工作）的开发与维护，完成过招聘门户Web端和移动端的整个样式改版。
+          独立完成“从渠道导入简历”功能的方案设计和开发，包括后端puppeteer无头浏览器服务、前端对应组件的开发、性能优化。独立完成基于地理位置的门店招聘小程序开发，支撑了包括麦当劳、盒马鲜生等企业的日常门店招聘工作
+        </div>
+      </div>
+      <div class="work">
+        <div class="row1">
+          <div class="company">
+            纷享销客 <span class="title">前端开发工程师</span>
+          </div>
+          <div class="time">2017年3月 - 2018年5月</div>
+        </div>
+        <div class="row2">
+          参与纷享销客OA平台的开发与维护，负责纷享销客企信IM浏览器Web端开发与维护，负责纷享销客企信IM桌面客户端的feature开发与维护，参与老的业务从jQuery到Vue的迁移
+        </div>
+      </div>
+      <h1>技能评价</h1>
+      <ul>
+        <li>前端基础知识扎实</li>
+        <li>熟练使用Javascript、HTML、CSS</li>
+        <li>熟练使用Typescript</li>
+        <li>熟练使用React、React-Hooks、Redux</li>
+        <li>熟练使用Chrome Devtools进行调试</li>
+        <li>熟练各种代码调试技巧，准确快速定位问题</li>
+        <li>掌握Gulp、Webpack等构建工具，熟练使用Node.js</li>
+        <li>熟悉Puppeteer无头浏览器框架</li>
+        <li>熟练使用Git、以及Linux/Unix下的常用命令行操作</li>
+        <li>熟练阅读英文文档</li>
+        <li></li>
+      </ul>
+      <h1>个人评价</h1>
+      <p>
+        有较强的自学能力，能够熟练阅读英文文档，快速掌握新的技能。遇到问题有较强的攻坚能力。有自驱力，能够主动推动项目进展，积极地和同事进行沟通协作。deadline意识比较强，能够熟练进行任务拆解，保证开发进度。有代码洁癖，能够熟练写出简洁易读的代码。
+      </p>
     </div>
-</body>
+  </body>
 </html>
